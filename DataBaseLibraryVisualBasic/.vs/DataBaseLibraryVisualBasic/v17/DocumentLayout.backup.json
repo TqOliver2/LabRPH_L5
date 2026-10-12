@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46C04376-1790-4F02-8E8A-C2F08DE10E05}|ConsolePrueba\\ConsolePrueba.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\consoleprueba\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{46C04376-1790-4F02-8E8A-C2F08DE10E05}|ConsolePrueba\\ConsolePrueba.vbproj|solutionrelative:consoleprueba\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\databaselibrary\\repositorios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|solutionrelative:databaselibrary\\repositorios.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\databaselibrary\\modelos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|solutionrelative:databaselibrary\\modelos.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\databaselibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|solutionrelative:databaselibrary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\databaselibrary\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|solutionrelative:databaselibrary\\database.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46C04376-1790-4F02-8E8A-C2F08DE10E05}|ConsolePrueba\\ConsolePrueba.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\consoleprueba\\consoleprueba.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46C04376-1790-4F02-8E8A-C2F08DE10E05}|ConsolePrueba\\ConsolePrueba.vbproj|solutionrelative:consoleprueba\\consoleprueba.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|c:\\cproyectos\\databaselibraryvisualbasic\\databaselibrary\\appconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CDAA90A9-1B63-441D-9260-85687E384F28}|DatabaseLibrary\\DatabaseLibrary.vbproj|solutionrelative:databaselibrary\\appconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.vb",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Database.vb",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\Database.vb",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Database.vb",
+              "RelativeToolTip": "DatabaseLibrary\\Database.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-12T03:49:14.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsolePrueba.vbproj",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\ConsolePrueba\\ConsolePrueba.vbproj",
+              "RelativeDocumentMoniker": "ConsolePrueba\\ConsolePrueba.vbproj",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\ConsolePrueba\\ConsolePrueba.vbproj",
+              "RelativeToolTip": "ConsolePrueba\\ConsolePrueba.vbproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-10-12T03:48:55.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Modelos.vb",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Modelos.vb",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\Modelos.vb",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Modelos.vb",
+              "RelativeToolTip": "DatabaseLibrary\\Modelos.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-06T15:49:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppConfig.vb",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\AppConfig.vb",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\AppConfig.vb",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\AppConfig.vb",
+              "RelativeToolTip": "DatabaseLibrary\\AppConfig.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-06T15:48:19.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repositorios.vb",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Repositorios.vb",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\Repositorios.vb",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\Repositorios.vb",
+              "RelativeToolTip": "DatabaseLibrary\\Repositorios.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-06T15:45:29.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\appsettings.json",
+              "RelativeDocumentMoniker": "DatabaseLibrary\\appsettings.json",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\DatabaseLibrary\\appsettings.json",
+              "RelativeToolTip": "DatabaseLibrary\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-06T15:45:17.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\ConsolePrueba\\Program.vb",
+              "RelativeDocumentMoniker": "ConsolePrueba\\Program.vb",
+              "ToolTip": "C:\\cproyectos\\DataBaseLibraryVisualBasic\\ConsolePrueba\\Program.vb",
+              "RelativeToolTip": "ConsolePrueba\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-06T13:20:55.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 14,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
