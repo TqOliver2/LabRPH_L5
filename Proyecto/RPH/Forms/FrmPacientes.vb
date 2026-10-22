@@ -1,4 +1,5 @@
 Imports System.Data
+Imports Microsoft.Data.SqlClient
 Imports RPH.Data
 Imports RPH.Models
 Imports RPH.UI
@@ -485,6 +486,43 @@ Namespace Forms
                 e.SuppressKeyPress = True
                 btnBuscar.PerformClick()
             End If
+        End Sub
+
+        ''' <summary>
+        ''' Comprueba la conectividad con la base de datos SQL Server Hospital.
+        ''' Implementado según el Paso 4 de la guía de conexión.
+        ''' </summary>
+        Private Sub btnProbarConexion_Click(
+            sender As Object,
+            e As EventArgs
+        ) Handles btnProbarConexion.Click
+
+            Try
+                Using conexion As SqlConnection = ObtenerConexion()
+
+                    conexion.Open()
+
+                    Dim mensajeExito As String =
+                        "¡Conexión establecida correctamente con el servidor SQL!" & vbCrLf & vbCrLf &
+                        $"• Servidor conectado: {conexion.DataSource}" & vbCrLf &
+                        $"• Base de datos: {conexion.Database}"
+
+                    MessageBox.Show(
+                        mensajeExito,
+                        "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information
+                    )
+
+                End Using
+
+            Catch ex As Exception
+
+                MessageBox.Show(
+                    "Fallo al conectar: " & ex.Message,
+                    "Error de red/autenticación", MessageBoxButtons.OK, MessageBoxIcon.Error
+                )
+
+            End Try
+
         End Sub
 
     End Class

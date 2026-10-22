@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\Laboratorio5\\LabRPH_L5\\RPH\\RPH.vbproj": {}
+    "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\RPH\\RPH.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\Laboratorio5\\LabRPH_L5\\RPH\\RPH.vbproj": {
+    "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\RPH\\RPH.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\Laboratorio5\\LabRPH_L5\\RPH\\RPH.vbproj",
+        "projectUniqueName": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\RPH\\RPH.vbproj",
         "projectName": "RPH",
-        "projectPath": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\Laboratorio5\\LabRPH_L5\\RPH\\RPH.vbproj",
+        "projectPath": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\RPH\\RPH.vbproj",
         "packagesPath": "C:\\Users\\HP_15Tq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\Laboratorio5\\LabRPH_L5\\RPH\\obj\\",
+        "outputPath": "C:\\Users\\HP_15Tq\\Desktop\\Desarrollo de Software VIII\\RPH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

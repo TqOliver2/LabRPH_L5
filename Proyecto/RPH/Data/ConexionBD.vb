@@ -27,24 +27,8 @@ Namespace Data
                 ' Continuar con servidores candidatos
             End Try
 
-            ' 2. Servidores candidatos estándar
-            Dim servidoresCandidatos As String() = {".", "(local)", ".\SQLEXPRESS", "localhost", "127.0.0.1"}
-
-            For Each servidor In servidoresCandidatos
-                Dim candidata = $"Server={servidor};Database=Hospital;Integrated Security=True;TrustServerCertificate=True;Connect Timeout=2;"
-                Try
-                    Using conn As New SqlConnection(candidata)
-                        conn.Open()
-                        CadenaConexionActiva = $"Server={servidor};Database=Hospital;Integrated Security=True;TrustServerCertificate=True;"
-                        Return CadenaConexionActiva
-                    End Using
-                Catch
-                    ' Probar siguiente candidato
-                End Try
-            Next
-
-            ' 3. Valor predeterminado
-            CadenaConexionActiva = "Server=.;Database=Hospital;Integrated Security=True;TrustServerCertificate=True;"
+            ' 2. Valor predeterminado hacia el servidor VPS Ubuntu
+            CadenaConexionActiva = "Server=tcp:10.196.68.14,1433;Initial Catalog=Hospital;User ID=vb_user;Password=TuPasswordSeguro123!;Encrypt=True;TrustServerCertificate=True;Connect Timeout=15;"
             Return CadenaConexionActiva
         End Function
 

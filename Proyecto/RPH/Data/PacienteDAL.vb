@@ -5,6 +5,7 @@ Imports RPH.Models
 Namespace Data
     ''' <summary>
     ''' Capa de Acceso a Datos (DAL) para las tablas 'pacientes' y 'citas' en la base de datos Hospital.
+    ''' Utiliza el módulo Conexion para gestionar la conexión con SQL Server.
     ''' </summary>
     Public Class PacienteDAL
 
@@ -38,7 +39,7 @@ Namespace Data
                 ORDER BY p.id_paciente DESC;"
 
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
                     Using adaptador As New SqlDataAdapter(consulta, conexion)
                         adaptador.Fill(tabla)
                     End Using
@@ -84,7 +85,7 @@ Namespace Data
                 ORDER BY p.id_paciente DESC;"
 
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
                     Using comando As New SqlCommand(consulta, conexion)
                         comando.Parameters.Add(New SqlParameter("@Criterio", SqlDbType.VarChar, 100) With {.Value = "%" & criterio.Trim() & "%"})
                         Using adaptador As New SqlDataAdapter(comando)
@@ -120,7 +121,8 @@ Namespace Data
                 WHERE p.id_paciente = @IdPaciente;"
 
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
+                    conexion.Open()
                     Using comando As New SqlCommand(consulta, conexion)
                         comando.Parameters.Add(New SqlParameter("@IdPaciente", SqlDbType.Int) With {.Value = idPaciente})
 
@@ -155,7 +157,8 @@ Namespace Data
             Dim nuevoIdPaciente As Integer = 0
 
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
+                    conexion.Open()
                     Using transaccion As SqlTransaction = conexion.BeginTransaction()
                         Try
                             ' 1. Insertar en tabla pacientes
@@ -212,7 +215,8 @@ Namespace Data
         ''' </summary>
         Public Function Actualizar(paciente As Paciente) As Boolean
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
+                    conexion.Open()
                     Using transaccion As SqlTransaction = conexion.BeginTransaction()
                         Try
                             ' 1. Actualizar tabla pacientes
@@ -290,17 +294,16 @@ Namespace Data
         ''' </summary>
         Public Function Eliminar(idPaciente As Integer) As Boolean
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
+                    conexion.Open()
                     Using transaccion As SqlTransaction = conexion.BeginTransaction()
                         Try
-                            ' Eliminar citas primero (por si la BD no tiene ON DELETE CASCADE configurado)
                             Dim sqlCitas As String = "DELETE FROM citas WHERE id_paciente = @IdPaciente;"
                             Using cmdCitas As New SqlCommand(sqlCitas, conexion, transaccion)
                                 cmdCitas.Parameters.Add(New SqlParameter("@IdPaciente", SqlDbType.Int) With {.Value = idPaciente})
                                 cmdCitas.ExecuteNonQuery()
                             End Using
 
-                            ' Eliminar paciente
                             Dim sqlPaciente As String = "DELETE FROM pacientes WHERE id_paciente = @IdPaciente;"
                             Dim filas As Integer
                             Using cmdPaciente As New SqlCommand(sqlPaciente, conexion, transaccion)
@@ -330,14 +333,14 @@ Namespace Data
             Dim consulta As String = "SELECT ISNULL(MAX(id_paciente), 0) + 1 FROM pacientes;"
 
             Try
-                Using conexion As SqlConnection = ConexionBD.ObtenerConexion()
+                Using conexion As SqlConnection = ObtenerConexion()
+                    conexion.Open()
                     Using comando As New SqlCommand(consulta, conexion)
                         Dim proxId = Convert.ToInt32(comando.ExecuteScalar())
                         siguiente = $"PAC{proxId.ToString("D3")}"
                     End Using
                 End Using
             Catch ex As Exception
-                ' Si hay problema generando sugerencia, retornar formato estándar
             End Try
 
             Return siguiente

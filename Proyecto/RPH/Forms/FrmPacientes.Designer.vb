@@ -22,6 +22,7 @@ Namespace Forms
         Friend WithEvents lblTitulo As System.Windows.Forms.Label
         Friend WithEvents lblSubtitulo As System.Windows.Forms.Label
         Friend WithEvents picHeaderMed As System.Windows.Forms.PictureBox
+        Friend WithEvents btnProbarConexion As System.Windows.Forms.Button
 
         ' Panel Izquierdo: Formularios de Entrada
         Friend WithEvents pnlIzquierdo As System.Windows.Forms.Panel
@@ -78,6 +79,7 @@ Namespace Forms
             Dim dataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
             Dim dataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
             Me.pnlEncabezado = New System.Windows.Forms.Panel()
+            Me.btnProbarConexion = New System.Windows.Forms.Button()
             Me.picHeaderMed = New System.Windows.Forms.PictureBox()
             Me.lblSubtitulo = New System.Windows.Forms.Label()
             Me.lblTitulo = New System.Windows.Forms.Label()
@@ -138,6 +140,7 @@ Namespace Forms
             ' pnlEncabezado
             '
             Me.pnlEncabezado.BackColor = System.Drawing.Color.FromArgb(CType(CType(65, Byte), Integer), CType(CType(48, Byte), Integer), CType(CType(116, Byte), Integer))
+            Me.pnlEncabezado.Controls.Add(Me.btnProbarConexion)
             Me.pnlEncabezado.Controls.Add(Me.picHeaderMed)
             Me.pnlEncabezado.Controls.Add(Me.lblSubtitulo)
             Me.pnlEncabezado.Controls.Add(Me.lblTitulo)
@@ -147,6 +150,22 @@ Namespace Forms
             Me.pnlEncabezado.Name = "pnlEncabezado"
             Me.pnlEncabezado.Size = New System.Drawing.Size(1174, 85)
             Me.pnlEncabezado.TabIndex = 0
+            '
+            ' btnProbarConexion
+            '
+            Me.btnProbarConexion.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Me.btnProbarConexion.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(184, Byte), Integer))
+            Me.btnProbarConexion.Cursor = System.Windows.Forms.Cursors.Hand
+            Me.btnProbarConexion.FlatAppearance.BorderSize = 0
+            Me.btnProbarConexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+            Me.btnProbarConexion.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+            Me.btnProbarConexion.ForeColor = System.Drawing.Color.White
+            Me.btnProbarConexion.Location = New System.Drawing.Point(920, 24)
+            Me.btnProbarConexion.Name = "btnProbarConexion"
+            Me.btnProbarConexion.Size = New System.Drawing.Size(155, 36)
+            Me.btnProbarConexion.TabIndex = 4
+            Me.btnProbarConexion.Text = "🔌 Probar Conexión"
+            Me.btnProbarConexion.UseVisualStyleBackColor = False
             '
             ' picHeaderMed
             '
